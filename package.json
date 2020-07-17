@@ -1,0 +1,27 @@
+{
+    "name": "twiteractions",
+    "description": "interaction circles for public twitter accounts",
+    "version": "1.0.0",
+    "main": "scr/index.js",
+    "license": "MIT",
+    "author": {
+        "name": "Eric Jonelunas",
+        "email": "eric.jonelunas@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/ejonelunas/twiteractions"
+    },
+    "scripts": {
+        "build": "node ./src/index.js",
+        "dev": "DEBUG=true node ./src/index.js"
+    },
+    "dependencies": {
+        "canvas": "^2.6.1",
+        "twitter-lite": "^0.14.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.0.5",
+        "dotenv": "^8.2.0",
+        "@types/node": "^14.0.23"
+    }
+}
