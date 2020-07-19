@@ -1,5 +1,4 @@
-import dotenv from "dotenv";
-import { get } from "http";
+const dotenv = require("dotenv");
 const getInteractions = require("./data");
 const render = require("./image");
 const {getUser} = require("./api");
